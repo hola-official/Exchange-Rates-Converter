@@ -78,4 +78,5 @@ const setUpEventListener = () => {
     }
   });
 };
+
 setUpEventListener();
