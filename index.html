@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="currencyConverter">
+      <div class="title">
+        <ion-icon name="cash-outline"></ion-icon>
+        <h1>Converter</h1>
+      </div>
+      <form id="convert">
+        <div>
+          <label for="amount">Amount</label>
+          <input type="number" value="0" id="amount" />
+        </div>
+        <div>
+          <label for="fromCurrency">From</label
+          ><select id="fromCurrency"></select>
+        </div>
+        <div>
+          <label for="toCurrency">To</label
+          ><select id="toCurrency"></select>
+        </div>
+        <button>Convert</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <!-- <footer>
+      <div class="footer">
+        <p>Copyright &copy; by Muhammed | All right Reserved</p>
+      </div>
+    </footer> -->
+    <script src="app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
